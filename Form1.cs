@@ -16,5 +16,17 @@ namespace HelloWinform
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(sender.Equals(button1))
+            {
+                MessageBox.Show("첫 번째 버튼 와우!");
+            }
+            else
+            {
+                MessageBox.Show("두 번째 버튼 와우!");
+            }
+        }
     }
 }
